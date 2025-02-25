@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
 Bundle-SymbolicName: RO_Get_Customers_from_Product_Orders
 Bundle-Name: RO Get Customers from Product Orders
-Bundle-Version: 1.0.23
+Bundle-Version: 1.0.24
 Bundle-ManifestVersion: 2
 Origin-Bundle-SymbolicName: RO_Get_Customers_from_Product_Orders
 SAP-NodeType: IFLMAP
