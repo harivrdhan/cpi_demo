@@ -1,8 +1,8 @@
 {
   "createdBy" : "harivardhan@releaseowl.com",
-  "creationDate" : 1740486390815,
+  "creationDate" : 1740486391000,
   "lastModifiedBy" : "harivardhan@releaseowl.com",
-  "lastModifiedDate" : 1740486390815,
+  "lastModifiedDate" : 1740487637741,
   "id" : 27,
   "name" : "Demo Test",
   "description" : "Demo Test",
@@ -11,7 +11,7 @@
   "envId" : 57,
   "artifactId" : "RO_Get_Customers_from_Product_Orders",
   "artifactName" : "RO Get Customers from Product Orders",
-  "artifactVersion" : "1.0.23",
+  "artifactVersion" : "1.0.24",
   "roVersionId" : 524,
   "protocol" : null,
   "endPoint" : "https://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/cxf/ro/customerOrders",
@@ -19,9 +19,9 @@
   "address" : "{{SOAP Address}}",
   "active" : true,
   "expectedMessages" : [ {
-    "id" : 272,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 282,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "MessageFlow_47391",
     "messageType" : "INPUT",
     "messageFormat" : "XML",
@@ -31,7 +31,7 @@
     "activityName" : "processEvent[InvokedEndpoint]",
     "stepName" : "SOAP",
     "childCount" : 1,
-    "traceId" : "20",
+    "traceId" : "117",
     "branchId" : "1",
     "camelSplitIndex" : "",
     "camelMulticastIndex" : "",
@@ -44,10 +44,6 @@
       "value" : "7793a633-6131-4084-6aa8-00bf",
       "propertyType" : "HEADER_PROPERTY"
     }, {
-      "name" : "postman-token",
-      "value" : "14ec50b7-fe48-4e34-be0d-50c989efd9c8",
-      "propertyType" : "HEADER_PROPERTY"
-    }, {
       "name" : "SapAuthenticatedUserName",
       "value" : "sb-15c5d9a8-18b8-4943-ba70-0724f84149fd!b405616|it-rt-52d71262trial!b55215",
       "propertyType" : "HEADER_PROPERTY"
@@ -57,7 +53,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "b3",
-      "value" : "7c0a2715858b4bfd46d55e850a2f42c2-46d55e850a2f42c2",
+      "value" : "98eb6c891f4145754b26c7225db05610-4b26c7225db05610",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "host",
@@ -65,7 +61,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "x-request-start",
-      "value" : "1740485485310",
+      "value" : "1740487611338",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "x-cf-instanceindex",
@@ -77,7 +73,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "Accept",
-      "value" : "*/*",
+      "value" : "text/plain, application/json, application/cbor, application/*+json, */*",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "x-forwarded-proto",
@@ -85,7 +81,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "x-vcap-request-id",
-      "value" : "7c0a2715-858b-4bfd-46d5-5e850a2f42c2",
+      "value" : "98eb6c89-1f41-4575-4b26-c7225db05610",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "x-forwarded-for",
@@ -97,35 +93,31 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "x-b3-spanid",
-      "value" : "46d55e850a2f42c2",
+      "value" : "4b26c7225db05610",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "x-b3-traceid",
-      "value" : "7c0a2715858b4bfd46d55e850a2f42c2",
+      "value" : "98eb6c891f4145754b26c7225db05610",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "x-correlationid",
-      "value" : "7c0a2715-858b-4bfd-46d5-5e850a2f42c2",
+      "value" : "98eb6c89-1f41-4575-4b26-c7225db05610",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "x-scp-request-id",
-      "value" : "02e191e0-1c0c-4fa4-a397-aed56caddf07-67BDB36D-4956497",
-      "propertyType" : "HEADER_PROPERTY"
-    }, {
-      "name" : "accept-encoding",
-      "value" : "gzip, deflate, br",
+      "value" : "0aaeb25d-4ca8-4465-b39c-cf3dbb27adaf-67BDBBBB-49A900A",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "user-agent",
-      "value" : "PostmanRuntime/7.43.0",
+      "value" : "Java/11.0.19",
       "propertyType" : "HEADER_PROPERTY"
     } ],
     "exchangeProps" : [ ],
     "uniqueKeyFromData" : "MessageFlow_47391"
   }, {
-    "id" : 273,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 283,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "CallActivity_9",
     "messageType" : "OUTPUT",
     "messageFormat" : "XML",
@@ -135,7 +127,7 @@
     "activityName" : "processExchange",
     "stepName" : "Products Iterator",
     "childCount" : 2,
-    "traceId" : "18",
+    "traceId" : "124",
     "branchId" : "1",
     "camelSplitIndex" : "",
     "camelMulticastIndex" : "",
@@ -159,9 +151,9 @@
     } ],
     "uniqueKeyFromData" : "CallActivity_9"
   }, {
-    "id" : 274,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 284,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "CallActivity_47344",
     "messageType" : "OUTPUT",
     "messageFormat" : "XML",
@@ -171,7 +163,7 @@
     "activityName" : "processExchange",
     "stepName" : "Modify_SetProductIdasHeader",
     "childCount" : 4,
-    "traceId" : "17",
+    "traceId" : "116",
     "branchId" : "2",
     "camelSplitIndex" : "0",
     "camelMulticastIndex" : "",
@@ -207,9 +199,9 @@
     } ],
     "uniqueKeyFromData" : "CallActivity_47344_0"
   }, {
-    "id" : 275,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 285,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "MessageFlow_47349",
     "messageType" : "OUTPUT",
     "messageFormat" : "XML",
@@ -219,7 +211,7 @@
     "activityName" : "processExchange",
     "stepName" : "OData_ProductSet",
     "childCount" : 5,
-    "traceId" : "21",
+    "traceId" : "120",
     "branchId" : "2",
     "camelSplitIndex" : "0",
     "camelMulticastIndex" : "",
@@ -259,9 +251,9 @@
     } ],
     "uniqueKeyFromData" : "MessageFlow_47349_0"
   }, {
-    "id" : 276,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 286,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "ExclusiveGateway_47350",
     "messageType" : "OUTPUT",
     "messageFormat" : "XML",
@@ -271,7 +263,7 @@
     "activityName" : "processExchange",
     "stepName" : "Router ProductId",
     "childCount" : 7,
-    "traceId" : "24",
+    "traceId" : "125",
     "branchId" : "2",
     "camelSplitIndex" : "0",
     "camelMulticastIndex" : "",
@@ -319,9 +311,9 @@
     } ],
     "uniqueKeyFromData" : "ExclusiveGateway_47350_0"
   }, {
-    "id" : 277,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 287,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "MessageFlow_47433",
     "messageType" : "OUTPUT",
     "messageFormat" : "XML",
@@ -331,7 +323,7 @@
     "activityName" : "processExchange",
     "stepName" : "HTTP",
     "childCount" : 8,
-    "traceId" : "14",
+    "traceId" : "121",
     "branchId" : "2",
     "camelSplitIndex" : "0",
     "camelMulticastIndex" : "",
@@ -379,19 +371,19 @@
     } ],
     "uniqueKeyFromData" : "MessageFlow_47433_0"
   }, {
-    "id" : 278,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 288,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "CallActivity_47415",
     "messageType" : "OUTPUT",
     "messageFormat" : "XML",
     "mimeType" : "application/octet-stream",
     "payloadSize" : "2307",
-    "message" : "<feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xml:base=\"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/\"><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/ProductSet('HT-2001')/ToSalesOrderLineItems</id><title type=\"text\">SalesOrderLineItemSet</title><updated>2025-02-25T12:11:26Z</updated><author><name/></author><link href=\"ProductSet('HT-2001')/ToSalesOrderLineItems\" rel=\"self\" title=\"SalesOrderLineItemSet\"/><entry><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</id><title type=\"text\">SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</title><updated>2025-02-25T12:11:26Z</updated><category term=\"GWSAMPLE_BASIC.SalesOrderLineItem\" scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')\" rel=\"edit\" title=\"SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToHeader\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToHeader\" type=\"application/atom+xml;type=entry\" title=\"ToHeader\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToProduct\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToProduct\" type=\"application/atom+xml;type=entry\" title=\"ToProduct\"/><content type=\"application/xml\"><m:properties xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\"><d:SalesOrderID>0500000000</d:SalesOrderID><d:ItemPosition>0000000050</d:ItemPosition><d:ProductID>HT-2001</d:ProductID><d:Note>EPM DG: SO ID 0500000000 Item 0000000050</d:Note><d:NoteLanguage>EN</d:NoteLanguage><d:CurrencyCode>USD</d:CurrencyCode><d:GrossAmount>1606.46</d:GrossAmount><d:NetAmount>1349.97</d:NetAmount><d:TaxAmount>256.49</d:TaxAmount><d:DeliveryDate>2020-01-07T23:00:00.0000000</d:DeliveryDate><d:Quantity>3</d:Quantity><d:QuantityUnit>EA</d:QuantityUnit></m:properties></content></entry></feed>",
+    "message" : "<feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xml:base=\"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/\"><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/ProductSet('HT-2001')/ToSalesOrderLineItems</id><title type=\"text\">SalesOrderLineItemSet</title><updated>2025-02-25T12:46:51Z</updated><author><name/></author><link href=\"ProductSet('HT-2001')/ToSalesOrderLineItems\" rel=\"self\" title=\"SalesOrderLineItemSet\"/><entry><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</id><title type=\"text\">SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</title><updated>2025-02-25T12:46:51Z</updated><category term=\"GWSAMPLE_BASIC.SalesOrderLineItem\" scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')\" rel=\"edit\" title=\"SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToHeader\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToHeader\" type=\"application/atom+xml;type=entry\" title=\"ToHeader\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToProduct\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToProduct\" type=\"application/atom+xml;type=entry\" title=\"ToProduct\"/><content type=\"application/xml\"><m:properties xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\"><d:SalesOrderID>0500000000</d:SalesOrderID><d:ItemPosition>0000000050</d:ItemPosition><d:ProductID>HT-2001</d:ProductID><d:Note>EPM DG: SO ID 0500000000 Item 0000000050</d:Note><d:NoteLanguage>EN</d:NoteLanguage><d:CurrencyCode>USD</d:CurrencyCode><d:GrossAmount>1606.46</d:GrossAmount><d:NetAmount>1349.97</d:NetAmount><d:TaxAmount>256.49</d:TaxAmount><d:DeliveryDate>2020-01-07T23:00:00.0000000</d:DeliveryDate><d:Quantity>3</d:Quantity><d:QuantityUnit>EA</d:QuantityUnit></m:properties></content></entry></feed>",
     "activityName" : "processExchange",
     "stepName" : "SalesOrderLineItem Iterator",
     "childCount" : 11,
-    "traceId" : "23",
+    "traceId" : "128",
     "branchId" : "2",
     "camelSplitIndex" : "0",
     "camelMulticastIndex" : "",
@@ -417,7 +409,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "set-cookie",
-      "value" : "[sap-usercontext=SHA256:980df5a7e685d7da9120718562a9900f28c61090fcc2a82915ba88cfd2052660; path=/, MYSAPSSO2=AjQxMDMBABhQADIAMAAwADIANwAxADMAMwA4ADcAIAACAAYwADAAMgADABBFAFMANQAgACAAIAAgACAABAAYMgAwADIANQAwADIAMgA1ADEAMgAxADEABQAEAAAACAYAAlgACQACRQD%2fATkwggE1BgkqhkiG9w0BBwKgggEmMIIBIgIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYIBATCB%2fgIBATBUMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtQUcxDDAKBgNVBAsTA0VTNTEaMBgGA1UEAwwRKi5kbXp3ZGYuc2FwLmNvcnACCAogIgIiB0YBMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yNTAyMjUxMjExMjZaMCMGCSqGSIb3DQEJBDEWBBRRWZ2E59lPdv3RoLzM%21beHoiTwjDAJBgcqhkjOOAQDBC4wLAIUXPQz10CQ3FMh7T3hnLEfKQx4sOICFBeqoVifWXGyIyEtRPpGQQ3oFZmz; path=/; domain=.sapdevcenter.com; secure; HttpOnly, SAP_SESSIONID_ES5_002=HXnGvn2HBHQWNFR7rvAvUaKOhlvzcRHvpyBCAQoAA9g%3d; path=/; secure; HttpOnly]",
+      "value" : "[sap-usercontext=SHA256:980df5a7e685d7da9120718562a9900f28c61090fcc2a82915ba88cfd2052660; path=/, MYSAPSSO2=AjQxMDMBABhQADIAMAAwADIANwAxADMAMwA4ADcAIAACAAYwADAAMgADABBFAFMANQAgACAAIAAgACAABAAYMgAwADIANQAwADIAMgA1ADEAMgA0ADYABQAEAAAACAYAAlgACQACRQD%2fATkwggE1BgkqhkiG9w0BBwKgggEmMIIBIgIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYIBATCB%2fgIBATBUMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtQUcxDDAKBgNVBAsTA0VTNTEaMBgGA1UEAwwRKi5kbXp3ZGYuc2FwLmNvcnACCAogIgIiB0YBMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yNTAyMjUxMjQ2NTFaMCMGCSqGSIb3DQEJBDEWBBQr4rVKc44yii4h6Jz8qhG1I%2fjYEjAJBgcqhkjOOAQDBC4wLAIUUhbXLJkQc1NDHPcp9SNAkcfKVV8CFAa0%2fkTsb4ETqJbxw3Hsz8ZoCogT; path=/; domain=.sapdevcenter.com; secure; HttpOnly, SAP_SESSIONID_ES5_002=siZCcoQnw8wgWdDDqbkyF5TrxRnzdhHvpyBCAQoAA9g%3d; path=/; secure; HttpOnly]",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "SAPEnableMPLAttachments",
@@ -425,7 +417,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "sap-perf-fesrec",
-      "value" : "156757.000000",
+      "value" : "154887.000000",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "dataserviceversion",
@@ -467,19 +459,19 @@
     } ],
     "uniqueKeyFromData" : "CallActivity_47415_0"
   }, {
-    "id" : 279,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 289,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "CallActivity_47436",
     "messageType" : "OUTPUT",
     "messageFormat" : "XML",
     "mimeType" : "application/octet-stream",
     "payloadSize" : "2307",
-    "message" : "<feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xml:base=\"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/\"><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/ProductSet('HT-2001')/ToSalesOrderLineItems</id><title type=\"text\">SalesOrderLineItemSet</title><updated>2025-02-25T12:11:26Z</updated><author><name/></author><link href=\"ProductSet('HT-2001')/ToSalesOrderLineItems\" rel=\"self\" title=\"SalesOrderLineItemSet\"/><entry><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</id><title type=\"text\">SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</title><updated>2025-02-25T12:11:26Z</updated><category term=\"GWSAMPLE_BASIC.SalesOrderLineItem\" scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')\" rel=\"edit\" title=\"SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToHeader\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToHeader\" type=\"application/atom+xml;type=entry\" title=\"ToHeader\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToProduct\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToProduct\" type=\"application/atom+xml;type=entry\" title=\"ToProduct\"/><content type=\"application/xml\"><m:properties xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\"><d:SalesOrderID>0500000000</d:SalesOrderID><d:ItemPosition>0000000050</d:ItemPosition><d:ProductID>HT-2001</d:ProductID><d:Note>EPM DG: SO ID 0500000000 Item 0000000050</d:Note><d:NoteLanguage>EN</d:NoteLanguage><d:CurrencyCode>USD</d:CurrencyCode><d:GrossAmount>1606.46</d:GrossAmount><d:NetAmount>1349.97</d:NetAmount><d:TaxAmount>256.49</d:TaxAmount><d:DeliveryDate>2020-01-07T23:00:00.0000000</d:DeliveryDate><d:Quantity>3</d:Quantity><d:QuantityUnit>EA</d:QuantityUnit></m:properties></content></entry></feed>",
+    "message" : "<feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xml:base=\"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/\"><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/ProductSet('HT-2001')/ToSalesOrderLineItems</id><title type=\"text\">SalesOrderLineItemSet</title><updated>2025-02-25T12:46:51Z</updated><author><name/></author><link href=\"ProductSet('HT-2001')/ToSalesOrderLineItems\" rel=\"self\" title=\"SalesOrderLineItemSet\"/><entry><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</id><title type=\"text\">SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</title><updated>2025-02-25T12:46:51Z</updated><category term=\"GWSAMPLE_BASIC.SalesOrderLineItem\" scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')\" rel=\"edit\" title=\"SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToHeader\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToHeader\" type=\"application/atom+xml;type=entry\" title=\"ToHeader\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToProduct\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToProduct\" type=\"application/atom+xml;type=entry\" title=\"ToProduct\"/><content type=\"application/xml\"><m:properties xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\"><d:SalesOrderID>0500000000</d:SalesOrderID><d:ItemPosition>0000000050</d:ItemPosition><d:ProductID>HT-2001</d:ProductID><d:Note>EPM DG: SO ID 0500000000 Item 0000000050</d:Note><d:NoteLanguage>EN</d:NoteLanguage><d:CurrencyCode>USD</d:CurrencyCode><d:GrossAmount>1606.46</d:GrossAmount><d:NetAmount>1349.97</d:NetAmount><d:TaxAmount>256.49</d:TaxAmount><d:DeliveryDate>2020-01-07T23:00:00.0000000</d:DeliveryDate><d:Quantity>3</d:Quantity><d:QuantityUnit>EA</d:QuantityUnit></m:properties></content></entry></feed>",
     "activityName" : "processExchange",
     "stepName" : "Gather 2",
     "childCount" : 12,
-    "traceId" : "22",
+    "traceId" : "118",
     "branchId" : "2",
     "camelSplitIndex" : "0",
     "camelMulticastIndex" : "",
@@ -497,7 +489,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "SapSplitExpression",
-      "value" : "//entry",
+      "value" : "//SalesOrderLineItem",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "sap-metadata-last-modified",
@@ -505,7 +497,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "set-cookie",
-      "value" : "[sap-usercontext=SHA256:980df5a7e685d7da9120718562a9900f28c61090fcc2a82915ba88cfd2052660; path=/, MYSAPSSO2=AjQxMDMBABhQADIAMAAwADIANwAxADMAMwA4ADcAIAACAAYwADAAMgADABBFAFMANQAgACAAIAAgACAABAAYMgAwADIANQAwADIAMgA1ADEAMgAxADEABQAEAAAACAYAAlgACQACRQD%2fATkwggE1BgkqhkiG9w0BBwKgggEmMIIBIgIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYIBATCB%2fgIBATBUMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtQUcxDDAKBgNVBAsTA0VTNTEaMBgGA1UEAwwRKi5kbXp3ZGYuc2FwLmNvcnACCAogIgIiB0YBMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yNTAyMjUxMjExMjZaMCMGCSqGSIb3DQEJBDEWBBRRWZ2E59lPdv3RoLzM%21beHoiTwjDAJBgcqhkjOOAQDBC4wLAIUXPQz10CQ3FMh7T3hnLEfKQx4sOICFBeqoVifWXGyIyEtRPpGQQ3oFZmz; path=/; domain=.sapdevcenter.com; secure; HttpOnly, SAP_SESSIONID_ES5_002=HXnGvn2HBHQWNFR7rvAvUaKOhlvzcRHvpyBCAQoAA9g%3d; path=/; secure; HttpOnly]",
+      "value" : "[sap-usercontext=SHA256:980df5a7e685d7da9120718562a9900f28c61090fcc2a82915ba88cfd2052660; path=/, MYSAPSSO2=AjQxMDMBABhQADIAMAAwADIANwAxADMAMwA4ADcAIAACAAYwADAAMgADABBFAFMANQAgACAAIAAgACAABAAYMgAwADIANQAwADIAMgA1ADEAMgA0ADYABQAEAAAACAYAAlgACQACRQD%2fATkwggE1BgkqhkiG9w0BBwKgggEmMIIBIgIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYIBATCB%2fgIBATBUMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtQUcxDDAKBgNVBAsTA0VTNTEaMBgGA1UEAwwRKi5kbXp3ZGYuc2FwLmNvcnACCAogIgIiB0YBMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yNTAyMjUxMjQ2NTFaMCMGCSqGSIb3DQEJBDEWBBQr4rVKc44yii4h6Jz8qhG1I%2fjYEjAJBgcqhkjOOAQDBC4wLAIUUhbXLJkQc1NDHPcp9SNAkcfKVV8CFAa0%2fkTsb4ETqJbxw3Hsz8ZoCogT; path=/; domain=.sapdevcenter.com; secure; HttpOnly, SAP_SESSIONID_ES5_002=siZCcoQnw8wgWdDDqbkyF5TrxRnzdhHvpyBCAQoAA9g%3d; path=/; secure; HttpOnly]",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "SAPEnableMPLAttachments",
@@ -513,7 +505,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "sap-perf-fesrec",
-      "value" : "156757.000000",
+      "value" : "154887.000000",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "dataserviceversion",
@@ -555,19 +547,19 @@
     } ],
     "uniqueKeyFromData" : "CallActivity_47436_0"
   }, {
-    "id" : 280,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 290,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "EndEvent_2",
     "messageType" : "OUTPUT",
     "messageFormat" : "XML",
     "mimeType" : "application/octet-stream",
     "payloadSize" : "2475",
-    "message" : "<?xml version='1.0' encoding='UTF-8'?><multimap:Messages xmlns:multimap=\"http://sap.com/xi/XI/SplitAndMerge\"><multimap:Message1><feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xml:base=\"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/\"><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/ProductSet('HT-2001')/ToSalesOrderLineItems</id><title type=\"text\">SalesOrderLineItemSet</title><updated>2025-02-25T12:11:26Z</updated><author><name/></author><link href=\"ProductSet('HT-2001')/ToSalesOrderLineItems\" rel=\"self\" title=\"SalesOrderLineItemSet\"/><entry><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</id><title type=\"text\">SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</title><updated>2025-02-25T12:11:26Z</updated><category term=\"GWSAMPLE_BASIC.SalesOrderLineItem\" scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')\" rel=\"edit\" title=\"SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToHeader\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToHeader\" type=\"application/atom+xml;type=entry\" title=\"ToHeader\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToProduct\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToProduct\" type=\"application/atom+xml;type=entry\" title=\"ToProduct\"/><content type=\"application/xml\"><m:properties xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\"><d:SalesOrderID>0500000000</d:SalesOrderID><d:ItemPosition>0000000050</d:ItemPosition><d:ProductID>HT-2001</d:ProductID><d:Note>EPM DG: SO ID 0500000000 Item 0000000050</d:Note><d:NoteLanguage>EN</d:NoteLanguage><d:CurrencyCode>USD</d:CurrencyCode><d:GrossAmount>1606.46</d:GrossAmount><d:NetAmount>1349.97</d:NetAmount><d:TaxAmount>256.49</d:TaxAmount><d:DeliveryDate>2020-01-07T23:00:00.0000000</d:DeliveryDate><d:Quantity>3</d:Quantity><d:QuantityUnit>EA</d:QuantityUnit></m:properties></content></entry></feed></multimap:Message1></multimap:Messages>",
+    "message" : "<?xml version='1.0' encoding='UTF-8'?><multimap:Messages xmlns:multimap=\"http://sap.com/xi/XI/SplitAndMerge\"><multimap:Message1><feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xml:base=\"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/\"><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/ProductSet('HT-2001')/ToSalesOrderLineItems</id><title type=\"text\">SalesOrderLineItemSet</title><updated>2025-02-25T12:46:51Z</updated><author><name/></author><link href=\"ProductSet('HT-2001')/ToSalesOrderLineItems\" rel=\"self\" title=\"SalesOrderLineItemSet\"/><entry><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</id><title type=\"text\">SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</title><updated>2025-02-25T12:46:51Z</updated><category term=\"GWSAMPLE_BASIC.SalesOrderLineItem\" scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')\" rel=\"edit\" title=\"SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToHeader\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToHeader\" type=\"application/atom+xml;type=entry\" title=\"ToHeader\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToProduct\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToProduct\" type=\"application/atom+xml;type=entry\" title=\"ToProduct\"/><content type=\"application/xml\"><m:properties xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\"><d:SalesOrderID>0500000000</d:SalesOrderID><d:ItemPosition>0000000050</d:ItemPosition><d:ProductID>HT-2001</d:ProductID><d:Note>EPM DG: SO ID 0500000000 Item 0000000050</d:Note><d:NoteLanguage>EN</d:NoteLanguage><d:CurrencyCode>USD</d:CurrencyCode><d:GrossAmount>1606.46</d:GrossAmount><d:NetAmount>1349.97</d:NetAmount><d:TaxAmount>256.49</d:TaxAmount><d:DeliveryDate>2020-01-07T23:00:00.0000000</d:DeliveryDate><d:Quantity>3</d:Quantity><d:QuantityUnit>EA</d:QuantityUnit></m:properties></content></entry></feed></multimap:Message1></multimap:Messages>",
     "activityName" : "processExchange",
     "stepName" : "End Message with Customer Name",
     "childCount" : 13,
-    "traceId" : "12",
+    "traceId" : "122",
     "branchId" : "1",
     "camelSplitIndex" : "0",
     "camelMulticastIndex" : "",
@@ -585,7 +577,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "SapSplitExpression",
-      "value" : "//entry",
+      "value" : "//SalesOrderLineItem",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "sap-metadata-last-modified",
@@ -593,7 +585,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "set-cookie",
-      "value" : "[sap-usercontext=SHA256:980df5a7e685d7da9120718562a9900f28c61090fcc2a82915ba88cfd2052660; path=/, MYSAPSSO2=AjQxMDMBABhQADIAMAAwADIANwAxADMAMwA4ADcAIAACAAYwADAAMgADABBFAFMANQAgACAAIAAgACAABAAYMgAwADIANQAwADIAMgA1ADEAMgAxADEABQAEAAAACAYAAlgACQACRQD%2fATkwggE1BgkqhkiG9w0BBwKgggEmMIIBIgIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYIBATCB%2fgIBATBUMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtQUcxDDAKBgNVBAsTA0VTNTEaMBgGA1UEAwwRKi5kbXp3ZGYuc2FwLmNvcnACCAogIgIiB0YBMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yNTAyMjUxMjExMjZaMCMGCSqGSIb3DQEJBDEWBBRRWZ2E59lPdv3RoLzM%21beHoiTwjDAJBgcqhkjOOAQDBC4wLAIUXPQz10CQ3FMh7T3hnLEfKQx4sOICFBeqoVifWXGyIyEtRPpGQQ3oFZmz; path=/; domain=.sapdevcenter.com; secure; HttpOnly, SAP_SESSIONID_ES5_002=HXnGvn2HBHQWNFR7rvAvUaKOhlvzcRHvpyBCAQoAA9g%3d; path=/; secure; HttpOnly]",
+      "value" : "[sap-usercontext=SHA256:980df5a7e685d7da9120718562a9900f28c61090fcc2a82915ba88cfd2052660; path=/, MYSAPSSO2=AjQxMDMBABhQADIAMAAwADIANwAxADMAMwA4ADcAIAACAAYwADAAMgADABBFAFMANQAgACAAIAAgACAABAAYMgAwADIANQAwADIAMgA1ADEAMgA0ADYABQAEAAAACAYAAlgACQACRQD%2fATkwggE1BgkqhkiG9w0BBwKgggEmMIIBIgIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYIBATCB%2fgIBATBUMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtQUcxDDAKBgNVBAsTA0VTNTEaMBgGA1UEAwwRKi5kbXp3ZGYuc2FwLmNvcnACCAogIgIiB0YBMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yNTAyMjUxMjQ2NTFaMCMGCSqGSIb3DQEJBDEWBBQr4rVKc44yii4h6Jz8qhG1I%2fjYEjAJBgcqhkjOOAQDBC4wLAIUUhbXLJkQc1NDHPcp9SNAkcfKVV8CFAa0%2fkTsb4ETqJbxw3Hsz8ZoCogT; path=/; domain=.sapdevcenter.com; secure; HttpOnly, SAP_SESSIONID_ES5_002=siZCcoQnw8wgWdDDqbkyF5TrxRnzdhHvpyBCAQoAA9g%3d; path=/; secure; HttpOnly]",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "SAPEnableMPLAttachments",
@@ -601,7 +593,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "sap-perf-fesrec",
-      "value" : "156757.000000",
+      "value" : "154887.000000",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "dataserviceversion",
@@ -643,19 +635,19 @@
     } ],
     "uniqueKeyFromData" : "EndEvent_2_0"
   }, {
-    "id" : 281,
-    "mplId" : "AGe9s216TgDCGZ1z1cauc0Htm_LU",
-    "runId" : "AGe9s23Jx0YqPq_j293Jjb4P33XO",
+    "id" : 291,
+    "mplId" : "AGe9u7ukzK5-SOIErzL8QCc3dPEO",
+    "runId" : "AGe9u7tcP6D5f7ROX2r3cWPAbgKo",
     "modelStepId" : "MessageFlow_47391",
     "messageType" : "OUTPUT",
     "messageFormat" : "XML",
     "mimeType" : "application/octet-stream",
     "payloadSize" : "2609",
-    "message" : "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Header/><soap:Body><multimap:Messages xmlns:multimap=\"http://sap.com/xi/XI/SplitAndMerge\"><multimap:Message1><feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\" xml:base=\"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/\"><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/ProductSet('HT-2001')/ToSalesOrderLineItems</id><title type=\"text\">SalesOrderLineItemSet</title><updated>2025-02-25T12:11:26Z</updated><author><name/></author><link href=\"ProductSet('HT-2001')/ToSalesOrderLineItems\" rel=\"self\" title=\"SalesOrderLineItemSet\"/><entry><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</id><title type=\"text\">SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</title><updated>2025-02-25T12:11:26Z</updated><category scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\" term=\"GWSAMPLE_BASIC.SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')\" rel=\"edit\" title=\"SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToHeader\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToHeader\" title=\"ToHeader\" type=\"application/atom+xml;type=entry\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToProduct\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToProduct\" title=\"ToProduct\" type=\"application/atom+xml;type=entry\"/><content type=\"application/xml\"><m:properties xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\"><d:SalesOrderID>0500000000</d:SalesOrderID><d:ItemPosition>0000000050</d:ItemPosition><d:ProductID>HT-2001</d:ProductID><d:Note>EPM DG: SO ID 0500000000 Item 0000000050</d:Note><d:NoteLanguage>EN</d:NoteLanguage><d:CurrencyCode>USD</d:CurrencyCode><d:GrossAmount>1606.46</d:GrossAmount><d:NetAmount>1349.97</d:NetAmount><d:TaxAmount>256.49</d:TaxAmount><d:DeliveryDate>2020-01-07T23:00:00.0000000</d:DeliveryDate><d:Quantity>3</d:Quantity><d:QuantityUnit>EA</d:QuantityUnit></m:properties></content></entry></feed></multimap:Message1></multimap:Messages></soap:Body></soap:Envelope>",
+    "message" : "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Header/><soap:Body><multimap:Messages xmlns:multimap=\"http://sap.com/xi/XI/SplitAndMerge\"><multimap:Message1><feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\" xmlns:xml=\"http://www.w3.org/XML/1998/namespace\" xml:base=\"https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/\"><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/ProductSet('HT-2001')/ToSalesOrderLineItems</id><title type=\"text\">SalesOrderLineItemSet</title><updated>2025-02-25T12:46:51Z</updated><author><name/></author><link href=\"ProductSet('HT-2001')/ToSalesOrderLineItems\" rel=\"self\" title=\"SalesOrderLineItemSet\"/><entry><id>https://SAPES5.SAPDEVCENTER.COM:443/sap/opu/odata/iwbep/GWSAMPLE_BASIC/SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</id><title type=\"text\">SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')</title><updated>2025-02-25T12:46:51Z</updated><category scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\" term=\"GWSAMPLE_BASIC.SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')\" rel=\"edit\" title=\"SalesOrderLineItem\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToHeader\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToHeader\" title=\"ToHeader\" type=\"application/atom+xml;type=entry\"/><link href=\"SalesOrderLineItemSet(SalesOrderID='0500000000',ItemPosition='0000000050')/ToProduct\" rel=\"http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToProduct\" title=\"ToProduct\" type=\"application/atom+xml;type=entry\"/><content type=\"application/xml\"><m:properties xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\"><d:SalesOrderID>0500000000</d:SalesOrderID><d:ItemPosition>0000000050</d:ItemPosition><d:ProductID>HT-2001</d:ProductID><d:Note>EPM DG: SO ID 0500000000 Item 0000000050</d:Note><d:NoteLanguage>EN</d:NoteLanguage><d:CurrencyCode>USD</d:CurrencyCode><d:GrossAmount>1606.46</d:GrossAmount><d:NetAmount>1349.97</d:NetAmount><d:TaxAmount>256.49</d:TaxAmount><d:DeliveryDate>2020-01-07T23:00:00.0000000</d:DeliveryDate><d:Quantity>3</d:Quantity><d:QuantityUnit>EA</d:QuantityUnit></m:properties></content></entry></feed></multimap:Message1></multimap:Messages></soap:Body></soap:Envelope>",
     "activityName" : "processEvent[SentResponse]",
     "stepName" : "SOAP",
     "childCount" : 14,
-    "traceId" : "19",
+    "traceId" : "115",
     "branchId" : "1",
     "camelSplitIndex" : "",
     "camelMulticastIndex" : "",
@@ -669,7 +661,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "SapSplitExpression",
-      "value" : "//entry",
+      "value" : "//SalesOrderLineItem",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "sap-metadata-last-modified",
@@ -677,11 +669,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "set-cookie",
-      "value" : "[sap-usercontext=SHA256:980df5a7e685d7da9120718562a9900f28c61090fcc2a82915ba88cfd2052660; path=/, MYSAPSSO2=AjQxMDMBABhQADIAMAAwADIANwAxADMAMwA4ADcAIAACAAYwADAAMgADABBFAFMANQAgACAAIAAgACAABAAYMgAwADIANQAwADIAMgA1ADEAMgAxADEABQAEAAAACAYAAlgACQACRQD%2fATkwggE1BgkqhkiG9w0BBwKgggEmMIIBIgIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYIBATCB%2fgIBATBUMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtQUcxDDAKBgNVBAsTA0VTNTEaMBgGA1UEAwwRKi5kbXp3ZGYuc2FwLmNvcnACCAogIgIiB0YBMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yNTAyMjUxMjExMjZaMCMGCSqGSIb3DQEJBDEWBBRRWZ2E59lPdv3RoLzM%21beHoiTwjDAJBgcqhkjOOAQDBC4wLAIUXPQz10CQ3FMh7T3hnLEfKQx4sOICFBeqoVifWXGyIyEtRPpGQQ3oFZmz; path=/; domain=.sapdevcenter.com; secure; HttpOnly, SAP_SESSIONID_ES5_002=HXnGvn2HBHQWNFR7rvAvUaKOhlvzcRHvpyBCAQoAA9g%3d; path=/; secure; HttpOnly]",
-      "propertyType" : "HEADER_PROPERTY"
-    }, {
-      "name" : "Content-Encoding",
-      "value" : "gzip",
+      "value" : "[sap-usercontext=SHA256:980df5a7e685d7da9120718562a9900f28c61090fcc2a82915ba88cfd2052660; path=/, MYSAPSSO2=AjQxMDMBABhQADIAMAAwADIANwAxADMAMwA4ADcAIAACAAYwADAAMgADABBFAFMANQAgACAAIAAgACAABAAYMgAwADIANQAwADIAMgA1ADEAMgA0ADYABQAEAAAACAYAAlgACQACRQD%2fATkwggE1BgkqhkiG9w0BBwKgggEmMIIBIgIBATELMAkGBSsOAwIaBQAwCwYJKoZIhvcNAQcBMYIBATCB%2fgIBATBUMEgxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKEwZTQVAtQUcxDDAKBgNVBAsTA0VTNTEaMBgGA1UEAwwRKi5kbXp3ZGYuc2FwLmNvcnACCAogIgIiB0YBMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0yNTAyMjUxMjQ2NTFaMCMGCSqGSIb3DQEJBDEWBBQr4rVKc44yii4h6Jz8qhG1I%2fjYEjAJBgcqhkjOOAQDBC4wLAIUUhbXLJkQc1NDHPcp9SNAkcfKVV8CFAa0%2fkTsb4ETqJbxw3Hsz8ZoCogT; path=/; domain=.sapdevcenter.com; secure; HttpOnly, SAP_SESSIONID_ES5_002=siZCcoQnw8wgWdDDqbkyF5TrxRnzdhHvpyBCAQoAA9g%3d; path=/; secure; HttpOnly]",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "SAPEnableMPLAttachments",
@@ -689,11 +677,7 @@
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "sap-perf-fesrec",
-      "value" : "156757.000000",
-      "propertyType" : "HEADER_PROPERTY"
-    }, {
-      "name" : "Vary",
-      "value" : "Accept-Encoding",
+      "value" : "154887.000000",
       "propertyType" : "HEADER_PROPERTY"
     }, {
       "name" : "dataserviceversion",
