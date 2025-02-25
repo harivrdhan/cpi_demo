@@ -1,0 +1,536 @@
+{
+  "createdBy" : "harivardhan@releaseowl.com",
+  "creationDate" : 1740485469466,
+  "lastModifiedBy" : "harivardhan@releaseowl.com",
+  "lastModifiedDate" : 1740485469466,
+  "id" : 26,
+  "name" : "Invalid Product code Test",
+  "description" : "invalid product code ",
+  "testType" : "ALL_MESSAGES",
+  "projectId" : 66,
+  "envId" : 57,
+  "artifactId" : "RO_Get_Customers_from_Product_Orders",
+  "artifactName" : "RO Get Customers from Product Orders",
+  "artifactVersion" : "1.0.23",
+  "roVersionId" : 524,
+  "protocol" : null,
+  "endPoint" : "https://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/cxf/ro/customerOrders",
+  "adapterType" : "SOAP",
+  "address" : "{{SOAP Address}}",
+  "active" : true,
+  "expectedMessages" : [ {
+    "id" : 263,
+    "mplId" : "AGe9sywQA2aaQUnoqG7I8M82Od0t",
+    "runId" : "AGe9syxz1hMKvtiqYMmOZZI1MNJW",
+    "modelStepId" : "MessageFlow_47391",
+    "messageType" : "INPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "230",
+    "message" : "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n<soap:Body>\r\n<List>\r\n            <Product>\r\n                <ProductID>HAT-2001</ProductID>\r\n            </Product>\r\n</List>\r\n</soap:Body>\r\n</soap:Envelope>\r\n",
+    "activityName" : "processEvent[InvokedEndpoint]",
+    "stepName" : "SOAP",
+    "childCount" : 1,
+    "traceId" : "10",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "Http-Method",
+      "value" : "POST",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-cf-instanceid",
+      "value" : "7793a633-6131-4084-6aa8-00bf",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "postman-token",
+      "value" : "003f718e-43eb-4423-8801-9f98b205dbe7",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SapAuthenticatedUserName",
+      "value" : "sb-15c5d9a8-18b8-4943-ba70-0724f84149fd!b405616|it-rt-52d71262trial!b55215",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Authorization",
+      "value" : "***",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "b3",
+      "value" : "6e92fa6214c948794be0106e3164e955-4be0106e3164e955",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "host",
+      "value" : "52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-request-start",
+      "value" : "1740485420778",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-cf-instanceindex",
+      "value" : "0",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Content-Length",
+      "value" : "230",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Accept",
+      "value" : "*/*",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-forwarded-proto",
+      "value" : "https",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-vcap-request-id",
+      "value" : "6e92fa62-14c9-4879-4be0-106e3164e955",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-forwarded-for",
+      "value" : "***",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-cf-applicationid",
+      "value" : "a73d7260-28a5-40bd-a066-350c2c45ab2a",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-b3-spanid",
+      "value" : "4be0106e3164e955",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-b3-traceid",
+      "value" : "6e92fa6214c948794be0106e3164e955",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-correlationid",
+      "value" : "6e92fa62-14c9-4879-4be0-106e3164e955",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-scp-request-id",
+      "value" : "47d06227-f997-4e88-be22-9dd48dd91551-67BDB32C-48F78D5",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "accept-encoding",
+      "value" : "gzip, deflate, br",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "user-agent",
+      "value" : "PostmanRuntime/7.43.0",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ ],
+    "uniqueKeyFromData" : "MessageFlow_47391"
+  }, {
+    "id" : 264,
+    "mplId" : "AGe9sywQA2aaQUnoqG7I8M82Od0t",
+    "runId" : "AGe9syxz1hMKvtiqYMmOZZI1MNJW",
+    "modelStepId" : "CallActivity_9",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "162",
+    "message" : "<List xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n            <Product>\n                <ProductID>HAT-2001</ProductID>\n            </Product>\n</List>",
+    "activityName" : "processExchange",
+    "stepName" : "Products Iterator",
+    "childCount" : 2,
+    "traceId" : "1",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ ],
+    "exchangeProps" : [ {
+      "name" : "org.apache.cxf.service.model.BindingOperationInfo",
+      "value" : "[BindingOperationInfo: {http://camel.apache.org/cxf/jaxws/provider}invoke]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "jaxwsContext",
+      "value" : "{javax.xml.ws.wsdl.port={http://camel.apache.org/cxf/jaxws/provider}port12, javax.xml.ws.wsdl.interface={http://camel.apache.org/cxf/jaxws/provider}DefaultPayloadProviderSEI, javax.xml.ws.wsdl.description=/ro/customerOrders?wsdl, javax.xml.ws.wsdl.operation={http://camel.apache.org/cxf/jaxws/provider}invoke, javax.xml.ws.wsdl.service={http://camel.apache.org/cxf/jaxws/provider}service}",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "mtom-enabled",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SAP_SoapHeaderRead",
+      "value" : "[]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    } ],
+    "uniqueKeyFromData" : "CallActivity_9"
+  }, {
+    "id" : 265,
+    "mplId" : "AGe9sywQA2aaQUnoqG7I8M82Od0t",
+    "runId" : "AGe9syxz1hMKvtiqYMmOZZI1MNJW",
+    "modelStepId" : "CallActivity_47344",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "199",
+    "message" : "<?xml version='1.0' encoding='UTF-8'?><List xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n            <Product>\n                <ProductID>HAT-2001</ProductID>\n            </Product></List>",
+    "activityName" : "processExchange",
+    "stepName" : "Modify_SetProductIdasHeader",
+    "childCount" : 4,
+    "traceId" : "6",
+    "branchId" : "2",
+    "camelSplitIndex" : "0",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "SapGroup",
+      "value" : "1",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SapSplitExpression",
+      "value" : "//Product",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ {
+      "name" : "org.apache.cxf.service.model.BindingOperationInfo",
+      "value" : "[BindingOperationInfo: {http://camel.apache.org/cxf/jaxws/provider}invoke]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "mtom-enabled",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SAP_SoapHeaderRead",
+      "value" : "[]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "CamelSplitIndex",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "jaxwsContext",
+      "value" : "{javax.xml.ws.wsdl.port={http://camel.apache.org/cxf/jaxws/provider}port12, javax.xml.ws.wsdl.interface={http://camel.apache.org/cxf/jaxws/provider}DefaultPayloadProviderSEI, javax.xml.ws.wsdl.description=/ro/customerOrders?wsdl, javax.xml.ws.wsdl.operation={http://camel.apache.org/cxf/jaxws/provider}invoke, javax.xml.ws.wsdl.service={http://camel.apache.org/cxf/jaxws/provider}service}",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    } ],
+    "uniqueKeyFromData" : "CallActivity_47344_0"
+  }, {
+    "id" : 266,
+    "mplId" : "AGe9sywQA2aaQUnoqG7I8M82Od0t",
+    "runId" : "AGe9syxz1hMKvtiqYMmOZZI1MNJW",
+    "modelStepId" : "MessageFlow_47349",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "199",
+    "message" : "<?xml version='1.0' encoding='UTF-8'?><List xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n            <Product>\n                <ProductID>HAT-2001</ProductID>\n            </Product></List>",
+    "activityName" : "processExchange",
+    "stepName" : "OData_ProductSet",
+    "childCount" : 5,
+    "traceId" : "11",
+    "branchId" : "2",
+    "camelSplitIndex" : "0",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "SapGroup",
+      "value" : "1",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SapSplitExpression",
+      "value" : "//Product",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ {
+      "name" : "org.apache.cxf.service.model.BindingOperationInfo",
+      "value" : "[BindingOperationInfo: {http://camel.apache.org/cxf/jaxws/provider}invoke]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "mtom-enabled",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SAP_SoapHeaderRead",
+      "value" : "[]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "CamelSplitIndex",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "ProductID",
+      "value" : "HAT-2001",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "jaxwsContext",
+      "value" : "{javax.xml.ws.wsdl.port={http://camel.apache.org/cxf/jaxws/provider}port12, javax.xml.ws.wsdl.interface={http://camel.apache.org/cxf/jaxws/provider}DefaultPayloadProviderSEI, javax.xml.ws.wsdl.description=/ro/customerOrders?wsdl, javax.xml.ws.wsdl.operation={http://camel.apache.org/cxf/jaxws/provider}invoke, javax.xml.ws.wsdl.service={http://camel.apache.org/cxf/jaxws/provider}service}",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    } ],
+    "uniqueKeyFromData" : "MessageFlow_47349_0"
+  }, {
+    "id" : 267,
+    "mplId" : "AGe9sywQA2aaQUnoqG7I8M82Od0t",
+    "runId" : "AGe9syxz1hMKvtiqYMmOZZI1MNJW",
+    "modelStepId" : "ExclusiveGateway_47350",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "13",
+    "message" : "<ProductSet/>",
+    "activityName" : "processExchange",
+    "stepName" : "Router ProductId",
+    "childCount" : 7,
+    "traceId" : "5",
+    "branchId" : "2",
+    "camelSplitIndex" : "0",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "SapGroup",
+      "value" : "1",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SapSplitExpression",
+      "value" : "//Product",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ {
+      "name" : "org.apache.cxf.service.model.BindingOperationInfo",
+      "value" : "[BindingOperationInfo: {http://camel.apache.org/cxf/jaxws/provider}invoke]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : ".hasMoreRecords",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "mtom-enabled",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SAP_SoapHeaderRead",
+      "value" : "[]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "CamelSplitIndex",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "ProductID",
+      "value" : "HAT-2001",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SkipRecords_",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "jaxwsContext",
+      "value" : "{javax.xml.ws.wsdl.port={http://camel.apache.org/cxf/jaxws/provider}port12, javax.xml.ws.wsdl.interface={http://camel.apache.org/cxf/jaxws/provider}DefaultPayloadProviderSEI, javax.xml.ws.wsdl.description=/ro/customerOrders?wsdl, javax.xml.ws.wsdl.operation={http://camel.apache.org/cxf/jaxws/provider}invoke, javax.xml.ws.wsdl.service={http://camel.apache.org/cxf/jaxws/provider}service}",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    } ],
+    "uniqueKeyFromData" : "ExclusiveGateway_47350_0"
+  }, {
+    "id" : 268,
+    "mplId" : "AGe9sywQA2aaQUnoqG7I8M82Od0t",
+    "runId" : "AGe9syxz1hMKvtiqYMmOZZI1MNJW",
+    "modelStepId" : "EndEvent_47352",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "13",
+    "message" : "<ProductSet/>",
+    "activityName" : "processExchange",
+    "stepName" : "End Message without ProductId",
+    "childCount" : 8,
+    "traceId" : "4",
+    "branchId" : "2",
+    "camelSplitIndex" : "0",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "SapGroup",
+      "value" : "1",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SapSplitExpression",
+      "value" : "//Product",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ {
+      "name" : "org.apache.cxf.service.model.BindingOperationInfo",
+      "value" : "[BindingOperationInfo: {http://camel.apache.org/cxf/jaxws/provider}invoke]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : ".hasMoreRecords",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "mtom-enabled",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SAP_SoapHeaderRead",
+      "value" : "[]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "CamelSplitIndex",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "ProductID",
+      "value" : "HAT-2001",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SkipRecords_",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "jaxwsContext",
+      "value" : "{javax.xml.ws.wsdl.port={http://camel.apache.org/cxf/jaxws/provider}port12, javax.xml.ws.wsdl.interface={http://camel.apache.org/cxf/jaxws/provider}DefaultPayloadProviderSEI, javax.xml.ws.wsdl.description=/ro/customerOrders?wsdl, javax.xml.ws.wsdl.operation={http://camel.apache.org/cxf/jaxws/provider}invoke, javax.xml.ws.wsdl.service={http://camel.apache.org/cxf/jaxws/provider}service}",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    } ],
+    "uniqueKeyFromData" : "EndEvent_47352_0"
+  }, {
+    "id" : 269,
+    "mplId" : "AGe9sywQA2aaQUnoqG7I8M82Od0t",
+    "runId" : "AGe9syxz1hMKvtiqYMmOZZI1MNJW",
+    "modelStepId" : "CallActivity_47436",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "13",
+    "message" : "<ProductSet/>",
+    "activityName" : "processExchange",
+    "stepName" : "Gather 2",
+    "childCount" : 9,
+    "traceId" : "2",
+    "branchId" : "2",
+    "camelSplitIndex" : "0",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "SapGroup",
+      "value" : "1",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SapSplitExpression",
+      "value" : "//Product",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ {
+      "name" : "org.apache.cxf.service.model.BindingOperationInfo",
+      "value" : "[BindingOperationInfo: {http://camel.apache.org/cxf/jaxws/provider}invoke]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : ".hasMoreRecords",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "mtom-enabled",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SAP_SoapHeaderRead",
+      "value" : "[]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "CamelSplitIndex",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "ProductID",
+      "value" : "HAT-2001",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SkipRecords_",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SAP_MarkMessageAsFailed",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "jaxwsContext",
+      "value" : "{javax.xml.ws.wsdl.port={http://camel.apache.org/cxf/jaxws/provider}port12, javax.xml.ws.wsdl.interface={http://camel.apache.org/cxf/jaxws/provider}DefaultPayloadProviderSEI, javax.xml.ws.wsdl.description=/ro/customerOrders?wsdl, javax.xml.ws.wsdl.operation={http://camel.apache.org/cxf/jaxws/provider}invoke, javax.xml.ws.wsdl.service={http://camel.apache.org/cxf/jaxws/provider}service}",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    } ],
+    "uniqueKeyFromData" : "CallActivity_47436_0"
+  }, {
+    "id" : 270,
+    "mplId" : "AGe9sywQA2aaQUnoqG7I8M82Od0t",
+    "runId" : "AGe9syxz1hMKvtiqYMmOZZI1MNJW",
+    "modelStepId" : "EndEvent_2",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "181",
+    "message" : "<?xml version='1.0' encoding='UTF-8'?><multimap:Messages xmlns:multimap=\"http://sap.com/xi/XI/SplitAndMerge\"><multimap:Message1><ProductSet/></multimap:Message1></multimap:Messages>",
+    "activityName" : "processExchange",
+    "stepName" : "End Message with Customer Name",
+    "childCount" : 10,
+    "traceId" : "3",
+    "branchId" : "1",
+    "camelSplitIndex" : "0",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "SapGroup",
+      "value" : "1",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SapSplitExpression",
+      "value" : "//Product",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ {
+      "name" : "org.apache.cxf.service.model.BindingOperationInfo",
+      "value" : "[BindingOperationInfo: {http://camel.apache.org/cxf/jaxws/provider}invoke]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : ".hasMoreRecords",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "mtom-enabled",
+      "value" : "false",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SAP_SoapHeaderRead",
+      "value" : "[]",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "CamelSplitIndex",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "ProductID",
+      "value" : "HAT-2001",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "SkipRecords_",
+      "value" : "0",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    }, {
+      "name" : "jaxwsContext",
+      "value" : "{javax.xml.ws.wsdl.port={http://camel.apache.org/cxf/jaxws/provider}port12, javax.xml.ws.wsdl.interface={http://camel.apache.org/cxf/jaxws/provider}DefaultPayloadProviderSEI, javax.xml.ws.wsdl.description=/ro/customerOrders?wsdl, javax.xml.ws.wsdl.operation={http://camel.apache.org/cxf/jaxws/provider}invoke, javax.xml.ws.wsdl.service={http://camel.apache.org/cxf/jaxws/provider}service}",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    } ],
+    "uniqueKeyFromData" : "EndEvent_2_0"
+  }, {
+    "id" : 271,
+    "mplId" : "AGe9sywQA2aaQUnoqG7I8M82Od0t",
+    "runId" : "AGe9syxz1hMKvtiqYMmOZZI1MNJW",
+    "modelStepId" : "MessageFlow_47391",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "266",
+    "message" : "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Header/><soap:Body><multimap:Messages xmlns:multimap=\"http://sap.com/xi/XI/SplitAndMerge\"><multimap:Message1><ProductSet/></multimap:Message1></multimap:Messages></soap:Body></soap:Envelope>",
+    "activityName" : "processEvent[SentResponse]",
+    "stepName" : "SOAP",
+    "childCount" : 11,
+    "traceId" : "9",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "SapGroup",
+      "value" : "1",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SapSplitExpression",
+      "value" : "//Product",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ ],
+    "uniqueKeyFromData" : "MessageFlow_47391"
+  } ],
+  "mockRun" : false,
+  "testSuiteName" : ""
+}
