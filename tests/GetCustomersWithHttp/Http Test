@@ -1,0 +1,224 @@
+{
+  "createdBy" : "harivardhan@releaseowl.com",
+  "creationDate" : 1740488444494,
+  "lastModifiedBy" : "harivardhan@releaseowl.com",
+  "lastModifiedDate" : 1740488444494,
+  "id" : 28,
+  "name" : "Http Test",
+  "description" : "http test",
+  "testType" : "ALL_MESSAGES",
+  "projectId" : 66,
+  "envId" : 57,
+  "artifactId" : "GetCustomersWithHttp",
+  "artifactName" : "GetCustomersWithHttp",
+  "artifactVersion" : "1.0.1",
+  "roVersionId" : 515,
+  "protocol" : null,
+  "endPoint" : "https://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/getcustomershttp",
+  "adapterType" : "HTTPS",
+  "address" : null,
+  "active" : true,
+  "expectedMessages" : [ {
+    "id" : 292,
+    "mplId" : "AGe9vs2WQmEtW0ugDAhlrBi9BPEl",
+    "runId" : "AGe9vs3wXy8SQt5iTAuZXAJnWr1t",
+    "modelStepId" : "MessageFlow_4",
+    "messageType" : "INPUT",
+    "messageFormat" : "TEXT",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "1541",
+    "message" : null,
+    "activityName" : "logAdapterProcessing",
+    "stepName" : "HTTPS",
+    "childCount" : 2,
+    "traceId" : "84",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "Access-Control-Allow-Origin",
+      "value" : "*",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Access-Control-Allow-Methods",
+      "value" : "GET",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Access-Control-Expose-Headers",
+      "value" : "DataServiceVersion",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SAPEnableMPLAttachments",
+      "value" : "true",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Content-Length",
+      "value" : "1541",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "DataServiceVersion",
+      "value" : "1.0;",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "CamelHttpUrl",
+      "value" : "http://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/getcustomershttp",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "X-Content-Type-Options",
+      "value" : "nosniff",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Access-Control-Allow-Headers",
+      "value" : "Accept, Origin, Content-Type, MaxDataServiceVersion",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Vary",
+      "value" : "*",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Expires",
+      "value" : "Tue, 25 Feb 2025 13:00:57 GMT",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "CamelHttpPath",
+      "value" : "",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ ],
+    "uniqueKeyFromData" : "MessageFlow_4"
+  }, {
+    "id" : 293,
+    "mplId" : "AGe9vs2WQmEtW0ugDAhlrBi9BPEl",
+    "runId" : "AGe9vs3wXy8SQt5iTAuZXAJnWr1t",
+    "modelStepId" : "CallActivity_9",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "TEXT",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "0",
+    "message" : null,
+    "activityName" : "processExchange",
+    "stepName" : "Content Modifier 1",
+    "childCount" : 3,
+    "traceId" : "81",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "CamelHttpUrl",
+      "value" : "http://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/getcustomershttp",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "CamelHttpPath",
+      "value" : "",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ ],
+    "uniqueKeyFromData" : "CallActivity_9"
+  }, {
+    "id" : 294,
+    "mplId" : "AGe9vs2WQmEtW0ugDAhlrBi9BPEl",
+    "runId" : "AGe9vs3wXy8SQt5iTAuZXAJnWr1t",
+    "modelStepId" : "MessageFlow_8",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "TEXT",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "0",
+    "message" : null,
+    "activityName" : "processExchange",
+    "stepName" : "HTTP",
+    "childCount" : 4,
+    "traceId" : "79",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "CamelHttpUrl",
+      "value" : "http://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/getcustomershttp",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "CamelHttpPath",
+      "value" : "",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ {
+      "name" : "query",
+      "value" : "$top=2&$select=CustomerID,CompanyName,Country&$filter=Country eq 'Germany'",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    } ],
+    "uniqueKeyFromData" : "MessageFlow_8"
+  }, {
+    "id" : 295,
+    "mplId" : "AGe9vs2WQmEtW0ugDAhlrBi9BPEl",
+    "runId" : "AGe9vs3wXy8SQt5iTAuZXAJnWr1t",
+    "modelStepId" : "EndEvent_2",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "1541",
+    "message" : "<?xml version=\"1.0\" encoding=\"utf-8\"?><feed xml:base=\"https://services.odata.org/Northwind/Northwind.svc/\" xmlns=\"http://www.w3.org/2005/Atom\" xmlns:d=\"http://schemas.microsoft.com/ado/2007/08/dataservices\" xmlns:m=\"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata\"><id>https://services.odata.org/northwind/northwind.svc/Customers</id><title type=\"text\">Customers</title><updated>2025-02-25T12:59:57Z</updated><link rel=\"self\" title=\"Customers\" href=\"Customers\" /><entry><id>https://services.odata.org/Northwind/Northwind.svc/Customers('ALFKI')</id><category term=\"NorthwindModel.Customer\" scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\" /><link rel=\"edit\" title=\"Customer\" href=\"Customers('ALFKI')\" /><title /><updated>2025-02-25T12:59:57Z</updated><author><name /></author><content type=\"application/xml\"><m:properties><d:CustomerID>ALFKI</d:CustomerID><d:CompanyName>Alfreds Futterkiste</d:CompanyName><d:Country>Germany</d:Country></m:properties></content></entry><entry><id>https://services.odata.org/Northwind/Northwind.svc/Customers('BLAUS')</id><category term=\"NorthwindModel.Customer\" scheme=\"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme\" /><link rel=\"edit\" title=\"Customer\" href=\"Customers('BLAUS')\" /><title /><updated>2025-02-25T12:59:57Z</updated><author><name /></author><content type=\"application/xml\"><m:properties><d:CustomerID>BLAUS</d:CustomerID><d:CompanyName>Blauer See Delikatessen</d:CompanyName><d:Country>Germany</d:Country></m:properties></content></entry></feed>",
+    "activityName" : "processExchange",
+    "stepName" : "End",
+    "childCount" : 7,
+    "traceId" : "85",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "Access-Control-Allow-Origin",
+      "value" : "*",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Access-Control-Allow-Methods",
+      "value" : "GET",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Access-Control-Expose-Headers",
+      "value" : "DataServiceVersion",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "SAPEnableMPLAttachments",
+      "value" : "true",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Content-Length",
+      "value" : "1541",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "DataServiceVersion",
+      "value" : "1.0;",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "CamelHttpUrl",
+      "value" : "http://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/getcustomershttp",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "X-Content-Type-Options",
+      "value" : "nosniff",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Access-Control-Allow-Headers",
+      "value" : "Accept, Origin, Content-Type, MaxDataServiceVersion",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Vary",
+      "value" : "*",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "Expires",
+      "value" : "Tue, 25 Feb 2025 13:00:57 GMT",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "CamelHttpPath",
+      "value" : "",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ {
+      "name" : "query",
+      "value" : "$top=2&$select=CustomerID,CompanyName,Country&$filter=Country eq 'Germany'",
+      "propertyType" : "EXCHANGE_PROPERTY"
+    } ],
+    "uniqueKeyFromData" : "EndEvent_2"
+  } ],
+  "mockRun" : false,
+  "testSuiteName" : ""
+}
