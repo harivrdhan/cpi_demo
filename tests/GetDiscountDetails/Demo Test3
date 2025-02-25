@@ -1,0 +1,208 @@
+{
+  "createdBy" : "harivardhan@releaseowl.com",
+  "creationDate" : 1740493117780,
+  "lastModifiedBy" : "harivardhan@releaseowl.com",
+  "lastModifiedDate" : 1740493117780,
+  "id" : 31,
+  "name" : "Demo Test3",
+  "description" : "discounts test",
+  "testType" : "ALL_MESSAGES",
+  "projectId" : 66,
+  "envId" : 57,
+  "artifactId" : "GetDiscountDetails",
+  "artifactName" : "GetDiscountDetails",
+  "artifactVersion" : "1.0.3",
+  "roVersionId" : 512,
+  "protocol" : null,
+  "endPoint" : "https://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/itemsdiscount",
+  "adapterType" : "HTTPS",
+  "address" : null,
+  "active" : true,
+  "expectedMessages" : [ {
+    "id" : 303,
+    "mplId" : "AGe90MsMAjqz3ZVbNPn1sLXP_-K-",
+    "runId" : "AGe90MuDs8_b4sNZ2mr0Xv_wwp8v",
+    "modelStepId" : "MessageFlow_4",
+    "messageType" : "INPUT",
+    "messageFormat" : "TEXT",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "89",
+    "message" : "name,type,price\r\nPen,Stationary,20\r\nOil,Grocery,10\r\nEraser,Stationary,20\r\nBanana,Fruit,10",
+    "activityName" : "logAdapterProcessing",
+    "stepName" : "HTTPS",
+    "childCount" : 2,
+    "traceId" : "186",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "content-length",
+      "value" : "89",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "cookie",
+      "value" : "SAP_SESSIONID_ES5_002=SHA256:7ab1d57bab73330c3baf5fc0f507d66540cf8d0c800653c620e40c9bcdca06b0; sap-usercontext=SHA256:980df5a7e685d7da9120718562a9900f28c61090fcc2a82915ba88cfd2052660",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-forwarded-proto",
+      "value" : "https",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-cf-instanceid",
+      "value" : "7793a633-6131-4084-6aa8-00bf",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "postman-token",
+      "value" : "dcf59995-5a68-4056-8c97-46ef0039df06",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-vcap-request-id",
+      "value" : "22ef682b-f07a-4182-519f-05db4ca7809d",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-forwarded-for",
+      "value" : "***",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "accept",
+      "value" : "*/*",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "authorization",
+      "value" : "***",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "b3",
+      "value" : "22ef682bf07a4182519f05db4ca7809d-519f05db4ca7809d",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-cf-applicationid",
+      "value" : "a73d7260-28a5-40bd-a066-350c2c45ab2a",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-b3-spanid",
+      "value" : "519f05db4ca7809d",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-b3-traceid",
+      "value" : "22ef682bf07a4182519f05db4ca7809d",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-correlationid",
+      "value" : "22ef682b-f07a-4182-519f-05db4ca7809d",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "host",
+      "value" : "52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-request-start",
+      "value" : "1740493003543",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-cf-instanceindex",
+      "value" : "0",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "x-scp-request-id",
+      "value" : "a7cefdaf-e67a-4bea-a3cd-3d4020c916ed-67BDD0CB-4BBC09A",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "accept-encoding",
+      "value" : "gzip, deflate, br",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "user-agent",
+      "value" : "PostmanRuntime/7.43.0",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ ],
+    "uniqueKeyFromData" : "MessageFlow_4"
+  }, {
+    "id" : 304,
+    "mplId" : "AGe90MsMAjqz3ZVbNPn1sLXP_-K-",
+    "runId" : "AGe90MuDs8_b4sNZ2mr0Xv_wwp8v",
+    "modelStepId" : "CallActivity_5",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "TEXT",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "89",
+    "message" : "name,type,price\r\nPen,Stationary,20\r\nOil,Grocery,10\r\nEraser,Stationary,20\r\nBanana,Fruit,10",
+    "activityName" : "processExchange",
+    "stepName" : "CSV to XML Converter 1",
+    "childCount" : 3,
+    "traceId" : "189",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "CamelHttpUrl",
+      "value" : "http://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/itemsdiscount",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "CamelHttpPath",
+      "value" : "",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ ],
+    "uniqueKeyFromData" : "CallActivity_5"
+  }, {
+    "id" : 305,
+    "mplId" : "AGe90MsMAjqz3ZVbNPn1sLXP_-K-",
+    "runId" : "AGe90MuDs8_b4sNZ2mr0Xv_wwp8v",
+    "modelStepId" : "CallActivity_90",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "327",
+    "message" : "<?xml version='1.0' encoding='UTF-8'?><Items><Item><name>Pen</name><type>Stationary</type><price>20</price></Item><Item><name>Oil</name><type>Grocery</type><price>10</price></Item><Item><name>Eraser</name><type>Stationary</type><price>20</price></Item><Item><name>Banana</name><type>Fruit</type><price>10</price></Item></Items>",
+    "activityName" : "processExchange",
+    "stepName" : "Message Mapping 1",
+    "childCount" : 4,
+    "traceId" : "188",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "CamelHttpUrl",
+      "value" : "http://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/itemsdiscount",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "CamelHttpPath",
+      "value" : "",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ ],
+    "uniqueKeyFromData" : "CallActivity_90"
+  }, {
+    "id" : 306,
+    "mplId" : "AGe90MsMAjqz3ZVbNPn1sLXP_-K-",
+    "runId" : "AGe90MuDs8_b4sNZ2mr0Xv_wwp8v",
+    "modelStepId" : "EndEvent_2",
+    "messageType" : "OUTPUT",
+    "messageFormat" : "XML",
+    "mimeType" : "application/octet-stream",
+    "payloadSize" : "420",
+    "message" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Items><Item><name>Pen</name><type>Stationary</type><price>20</price><discount>20</discount></Item><Item><name>Oil</name><type>Grocery</type><price>10</price><discount>10</discount></Item><Item><name>Eraser</name><type>Stationary</type><price>20</price><discount>20</discount></Item><Item><name>Banana</name><type>Fruit</type><price>10</price><discount>30</discount></Item></Items>",
+    "activityName" : "processExchange",
+    "stepName" : "End",
+    "childCount" : 5,
+    "traceId" : "190",
+    "branchId" : "1",
+    "camelSplitIndex" : "",
+    "camelMulticastIndex" : "",
+    "headerProps" : [ {
+      "name" : "CamelHttpUrl",
+      "value" : "http://52d71262trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com/http/itemsdiscount",
+      "propertyType" : "HEADER_PROPERTY"
+    }, {
+      "name" : "CamelHttpPath",
+      "value" : "",
+      "propertyType" : "HEADER_PROPERTY"
+    } ],
+    "exchangeProps" : [ ],
+    "uniqueKeyFromData" : "EndEvent_2"
+  } ],
+  "mockRun" : false,
+  "testSuiteName" : ""
+}
