@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MATMAS01">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="IDOC">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EDI_DC40">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TABNAM" type="xs:string" />
+                    <xs:element name="MANDT" type="xs:unsignedShort" />
+                    <xs:element name="DOCNUM" type="xs:unsignedInt" />
+                    <xs:element name="DOCREL" type="xs:unsignedShort" />
+                    <xs:element name="STATUS" type="xs:unsignedByte" />
+                    <xs:element name="DIRECT" type="xs:unsignedByte" />
+                    <xs:element name="OUTMOD" type="xs:unsignedByte" />
+                    <xs:element name="IDOCTYP" type="xs:string" />
+                    <xs:element name="MESTYP" type="xs:string" />
+                    <xs:element name="SNDPOR" type="xs:string" />
+                    <xs:element name="SNDPRT" type="xs:string" />
+                    <xs:element name="SNDPRN" type="xs:string" />
+                    <xs:element name="RCVPOR" type="xs:string" />
+                    <xs:element name="RCVPRT" type="xs:string" />
+                    <xs:element name="RCVPRN" type="xs:string" />
+                    <xs:element name="CREDAT" type="xs:unsignedInt" />
+                    <xs:element name="CRETIM" type="xs:unsignedInt" />
+                    <xs:element name="SERIAL" type="xs:unsignedLong" />
+                  </xs:sequence>
+                  <xs:attribute name="SEGMENT" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="E1MARAM">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MSGFN" type="xs:unsignedByte" />
+                    <xs:element name="MATNR" type="xs:unsignedByte" />
+                    <xs:element name="ERSDA" type="xs:unsignedInt" />
+                    <xs:element name="ERNAM" type="xs:string" />
+                    <xs:element name="LAEDA" type="xs:unsignedInt" />
+                    <xs:element name="AENAM" type="xs:string" />
+                    <xs:element name="PSTAT" type="xs:string" />
+                    <xs:element name="LVORM" type="xs:string" />
+                    <xs:element name="MTART" type="xs:string" />
+                    <xs:element name="MBRSH" type="xs:string" />
+                    <xs:element name="MATKL" type="xs:unsignedShort" />
+                    <xs:element name="MEINS" type="xs:string" />
+                    <xs:element name="BLANZ" type="xs:unsignedByte" />
+                    <xs:element name="BRGEW" type="xs:decimal" />
+                    <xs:element name="NTGEW" type="xs:decimal" />
+                    <xs:element name="GEWEI" type="xs:string" />
+                    <xs:element name="VOLUM" type="xs:decimal" />
+                    <xs:element name="TRAGR" type="xs:unsignedByte" />
+                    <xs:element name="SPART" type="xs:unsignedByte" />
+                    <xs:element name="WESCH" type="xs:decimal" />
+                    <xs:element name="LAENG" type="xs:decimal" />
+                    <xs:element name="BREIT" type="xs:decimal" />
+                    <xs:element name="HOEHE" type="xs:decimal" />
+                    <xs:element name="ERGEW" type="xs:decimal" />
+                    <xs:element name="ERVOL" type="xs:decimal" />
+                    <xs:element name="GEWTO" type="xs:decimal" />
+                    <xs:element name="VOLTO" type="xs:decimal" />
+                    <xs:element name="FUELG" type="xs:unsignedByte" />
+                    <xs:element name="STFAK" type="xs:unsignedByte" />
+                    <xs:element name="MHDRZ" type="xs:unsignedByte" />
+                    <xs:element name="MHDHB" type="xs:unsignedByte" />
+                    <xs:element name="MHDLP" type="xs:unsignedByte" />
+                    <xs:element name="VPSTA" type="xs:string" />
+                    <xs:element name="MSTDE" type="xs:unsignedByte" />
+                    <xs:element name="MSTDV" type="xs:unsignedByte" />
+                    <xs:element name="COMPL" type="xs:unsignedByte" />
+                    <xs:element name="GEWTO_NEW" type="xs:decimal" />
+                    <xs:element name="VOLTO_NEW" type="xs:decimal" />
+                    <xs:element name="ANP" type="xs:unsignedByte" />
+                    <xs:element maxOccurs="unbounded" name="E1MAKTM">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MSGFN" type="xs:unsignedByte" />
+                          <xs:element name="SPRAS" type="xs:string" />
+                          <xs:element name="MAKTX" type="xs:string" />
+                          <xs:element name="SPRAS_ISO" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="SEGMENT" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element maxOccurs="unbounded" name="E1MARCM">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MSGFN" type="xs:unsignedByte" />
+                          <xs:element name="WERKS" type="xs:unsignedShort" />
+                          <xs:element name="PSTAT" type="xs:string" />
+                          <xs:element name="LVORM" type="xs:string" />
+                          <xs:element name="PLIFZ" type="xs:unsignedByte" />
+                          <xs:element name="WEBAZ" type="xs:unsignedByte" />
+                          <xs:element name="PERKZ" type="xs:string" />
+                          <xs:element name="AUSSS" type="xs:decimal" />
+                          <xs:element name="MINBE" type="xs:decimal" />
+                          <xs:element name="EISBE" type="xs:decimal" />
+                          <xs:element name="BSTMI" type="xs:decimal" />
+                          <xs:element name="BSTMA" type="xs:decimal" />
+                          <xs:element name="BSTFE" type="xs:decimal" />
+                          <xs:element name="BSTRF" type="xs:decimal" />
+                          <xs:element name="MABST" type="xs:decimal" />
+                          <xs:element name="LOSFX" type="xs:unsignedByte" />
+                          <xs:element name="AUSDT" type="xs:unsignedByte" />
+                          <xs:element name="BEARZ" type="xs:decimal" />
+                          <xs:element name="RUEZT" type="xs:decimal" />
+                          <xs:element name="TRANZ" type="xs:decimal" />
+                          <xs:element name="BASMG" type="xs:decimal" />
+                          <xs:element name="DZEIT" type="xs:unsignedByte" />
+                          <xs:element name="MAXLZ" type="xs:unsignedByte" />
+                          <xs:element name="UEETO" type="xs:decimal" />
+                          <xs:element name="UNETO" type="xs:decimal" />
+                          <xs:element name="WZEIT" type="xs:unsignedByte" />
+                          <xs:element name="VZUSL" type="xs:decimal" />
+                          <xs:element name="UMLMC" type="xs:decimal" />
+                          <xs:element minOccurs="0" name="LADGR" type="xs:unsignedByte" />
+                          <xs:element name="LGRAD" type="xs:decimal" />
+                          <xs:element name="OBJID" type="xs:unsignedByte" />
+                          <xs:element name="MTVFP" type="xs:unsignedByte" />
+                          <xs:element name="VRVEZ" type="xs:decimal" />
+                          <xs:element name="VBAMG" type="xs:decimal" />
+                          <xs:element name="VBEAZ" type="xs:decimal" />
+                          <xs:element name="TRAME" type="xs:decimal" />
+                          <xs:element name="FXHOR" type="xs:unsignedByte" />
+                          <xs:element name="VINT1" type="xs:unsignedByte" />
+                          <xs:element name="VINT2" type="xs:unsignedByte" />
+                          <xs:element name="LOSGR" type="xs:decimal" />
+                          <xs:element name="KAUSF" type="xs:decimal" />
+                          <xs:element name="TAKZT" type="xs:unsignedByte" />
+                          <xs:element name="VRBDT" type="xs:unsignedByte" />
+                          <xs:element name="VRBFK" type="xs:decimal" />
+                          <xs:element minOccurs="0" name="PRENO" type="xs:unsignedByte" />
+                          <xs:element name="PREND" type="xs:unsignedByte" />
+                          <xs:element name="PRENG" type="xs:unsignedByte" />
+                          <xs:element name="PRFRQ" type="xs:unsignedByte" />
+                          <xs:element name="SHZET" type="xs:unsignedByte" />
+                          <xs:element name="MMSTD" type="xs:unsignedByte" />
+                          <xs:element name="DPLHO" type="xs:unsignedByte" />
+                          <xs:element name="MINLS" type="xs:decimal" />
+                          <xs:element name="MAXLS" type="xs:decimal" />
+                          <xs:element name="FIXLS" type="xs:decimal" />
+                          <xs:element name="LTINC" type="xs:decimal" />
+                          <xs:element name="COMPL" type="xs:unsignedByte" />
+                          <xs:element name="EISLO" type="xs:decimal" />
+                        </xs:sequence>
+                        <xs:attribute name="SEGMENT" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="E1MARMM">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MSGFN" type="xs:unsignedByte" />
+                          <xs:element name="MEINH" type="xs:string" />
+                          <xs:element name="UMREZ" type="xs:unsignedByte" />
+                          <xs:element name="UMREN" type="xs:unsignedByte" />
+                          <xs:element name="LAENG" type="xs:decimal" />
+                          <xs:element name="BREIT" type="xs:decimal" />
+                          <xs:element name="HOEHE" type="xs:decimal" />
+                          <xs:element name="VOLUM" type="xs:decimal" />
+                          <xs:element name="BRGEW" type="xs:decimal" />
+                          <xs:element name="GEWEI" type="xs:string" />
+                          <xs:element name="NEST_FTR" type="xs:unsignedByte" />
+                          <xs:element name="MAX_STACK" type="xs:unsignedByte" />
+                          <xs:element name="CAPAUSE" type="xs:decimal" />
+                        </xs:sequence>
+                        <xs:attribute name="SEGMENT" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="E1MBEWM">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MSGFN" type="xs:unsignedByte" />
+                          <xs:element name="BWKEY" type="xs:unsignedShort" />
+                          <xs:element name="LVORM" type="xs:string" />
+                          <xs:element name="VPRSV" type="xs:string" />
+                          <xs:element name="VERPR" type="xs:unsignedByte" />
+                          <xs:element name="STPRS" type="xs:decimal" />
+                          <xs:element name="PEINH" type="xs:unsignedByte" />
+                          <xs:element name="BKLAS" type="xs:unsignedShort" />
+                          <xs:element name="VMVPR" type="xs:string" />
+                          <xs:element name="VMVER" type="xs:unsignedByte" />
+                          <xs:element name="VMSTP" type="xs:decimal" />
+                          <xs:element name="VMPEI" type="xs:unsignedByte" />
+                          <xs:element name="VMBKL" type="xs:unsignedShort" />
+                          <xs:element name="VJVPR" type="xs:string" />
+                          <xs:element name="VJVER" type="xs:unsignedByte" />
+                          <xs:element name="VJSTP" type="xs:decimal" />
+                          <xs:element name="LFGJA" type="xs:unsignedShort" />
+                          <xs:element name="LFMON" type="xs:unsignedByte" />
+                          <xs:element name="ZKPRS" type="xs:unsignedByte" />
+                          <xs:element name="ZKDAT" type="xs:unsignedByte" />
+                          <xs:element name="BWPRS" type="xs:unsignedByte" />
+                          <xs:element name="BWPRH" type="xs:unsignedByte" />
+                          <xs:element name="VJBWS" type="xs:unsignedByte" />
+                          <xs:element name="VJBWH" type="xs:unsignedByte" />
+                          <xs:element name="VVJLB" type="xs:decimal" />
+                          <xs:element name="VVMLB" type="xs:decimal" />
+                          <xs:element name="VVSAL" type="xs:unsignedByte" />
+                          <xs:element name="ZPLPR" type="xs:unsignedByte" />
+                          <xs:element name="ZPLP1" type="xs:unsignedByte" />
+                          <xs:element name="ZPLP2" type="xs:unsignedByte" />
+                          <xs:element name="ZPLP3" type="xs:unsignedByte" />
+                          <xs:element name="ZPLD1" type="xs:unsignedByte" />
+                          <xs:element name="ZPLD2" type="xs:unsignedByte" />
+                          <xs:element name="ZPLD3" type="xs:unsignedByte" />
+                          <xs:element name="BWPH1" type="xs:unsignedByte" />
+                          <xs:element name="BWPS1" type="xs:unsignedByte" />
+                          <xs:element name="ABWKZ" type="xs:unsignedByte" />
+                          <xs:element name="PSTAT" type="xs:string" />
+                          <xs:element name="KALN1" type="xs:unsignedInt" />
+                          <xs:element name="KALNR" type="xs:unsignedInt" />
+                          <xs:element name="VERS1" type="xs:unsignedByte" />
+                          <xs:element name="VERS2" type="xs:unsignedByte" />
+                          <xs:element name="VERS3" type="xs:unsignedByte" />
+                          <xs:element name="PPRDZ" type="xs:unsignedByte" />
+                          <xs:element name="PPRDL" type="xs:unsignedByte" />
+                          <xs:element name="PPRDV" type="xs:unsignedByte" />
+                          <xs:element name="PDATZ" type="xs:unsignedByte" />
+                          <xs:element name="PDATL" type="xs:unsignedByte" />
+                          <xs:element name="PDATV" type="xs:unsignedByte" />
+                          <xs:element name="VPLPR" type="xs:unsignedByte" />
+                          <xs:element name="VJBKL" type="xs:unsignedShort" />
+                          <xs:element name="VJPEI" type="xs:unsignedByte" />
+                          <xs:element name="HKMAT" type="xs:string" />
+                          <xs:element name="BWPEI" type="xs:unsignedByte" />
+                        </xs:sequence>
+                        <xs:attribute name="SEGMENT" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="E1MLANM">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MSGFN" type="xs:unsignedByte" />
+                          <xs:element name="ALAND" type="xs:string" />
+                          <xs:element name="TATY1" type="xs:string" />
+                          <xs:element name="TAXM1" type="xs:unsignedByte" />
+                        </xs:sequence>
+                        <xs:attribute name="SEGMENT" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="SEGMENT" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="BEGIN" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
