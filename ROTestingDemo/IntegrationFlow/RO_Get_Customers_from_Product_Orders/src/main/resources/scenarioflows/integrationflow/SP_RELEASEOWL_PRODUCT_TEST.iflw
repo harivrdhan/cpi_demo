@@ -1052,7 +1052,7 @@
                 </ifl:property>
                 <ifl:property>
                     <key>splitExprValue</key>
-                    <value>//entry</value>
+                    <value>//SalesOrderLineItem</value>
                 </ifl:property>
                 <ifl:property>
                     <key>ParallelProcessing</key>
@@ -1088,7 +1088,7 @@
                 </ifl:property>
                 <ifl:property>
                     <key>tokenValue</key>
-                    <value>//entry</value>
+                    <value>//SalesOrderLineItem</value>
                 </ifl:property>
             </bpmn2:extensionElements>
             <bpmn2:incoming>SequenceFlow_47418</bpmn2:incoming>
@@ -1287,7 +1287,7 @@
                     <value>ctype::FlowstepVariant/cname::GatewayRoute/version::1.0.0</value>
                 </ifl:property>
             </bpmn2:extensionElements>
-            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_47362_1740474807953" xsi:type="bpmn2:tFormalExpression">//SalesOrderLineItem/count(SalesOrderID)&gt;0</bpmn2:conditionExpression>
+            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_47362_1740487123280" xsi:type="bpmn2:tFormalExpression">//SalesOrderLineItem/count(SalesOrderID)&gt;0</bpmn2:conditionExpression>
         </bpmn2:sequenceFlow>
         <bpmn2:sequenceFlow id="SequenceFlow_47365" name="NoSalesOrderAvailable" sourceRef="ExclusiveGateway_47361" targetRef="EndEvent_47364">
             <bpmn2:extensionElements>
@@ -1320,7 +1320,7 @@
                     <value>ctype::FlowstepVariant/cname::GatewayRoute/version::1.0.0</value>
                 </ifl:property>
             </bpmn2:extensionElements>
-            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_47351_1740474807953" xsi:type="bpmn2:tFormalExpression">/ProductSet/count(Product)&gt;0</bpmn2:conditionExpression>
+            <bpmn2:conditionExpression id="FormalExpression_SequenceFlow_47351_1740487123280" xsi:type="bpmn2:tFormalExpression">/ProductSet/count(Product)&gt;0</bpmn2:conditionExpression>
         </bpmn2:sequenceFlow>
         <bpmn2:sequenceFlow id="SequenceFlow_47353" name="ProductId not available" sourceRef="ExclusiveGateway_47350" targetRef="EndEvent_47352">
             <bpmn2:extensionElements>
