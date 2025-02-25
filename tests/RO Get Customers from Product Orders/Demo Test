@@ -2,7 +2,7 @@
   "createdBy" : "harivardhan@releaseowl.com",
   "creationDate" : 1740486391000,
   "lastModifiedBy" : "harivardhan@releaseowl.com",
-  "lastModifiedDate" : 1740487637741,
+  "lastModifiedDate" : 1740488748887,
   "id" : 27,
   "name" : "Demo Test",
   "description" : "Demo Test",
@@ -687,6 +687,6 @@
     "exchangeProps" : [ ],
     "uniqueKeyFromData" : "MessageFlow_47391"
   } ],
-  "mockRun" : false,
+  "mockRun" : true,
   "testSuiteName" : ""
 }
