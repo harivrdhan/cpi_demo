@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><parameters><parameter>
+    <key/>
+    <name>SOAP Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SAP S4 Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Proxy</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Authentication</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>User Credentials</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>ProductManager Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>GetURI</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Count</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>httpstarget</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><param_references><reference attribute_category="SAP_S4" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.16.0/attrId::httpAddressQuery" attribute_uilabel="Query" param_key="Count"/><reference attribute_category="SAP_S4.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.16.0/attrId::credentialName" attribute_uilabel="Credential Name" param_key="User Credentials"/><reference attribute_category="SAP_S4" attribute_id="ctype::AdapterVariant/cname::HTTP/tp::HTTP/mp::None/direction::Receiver/version::1.16.0/attrId::httpAddressWithoutQuery" attribute_uilabel="Address" param_key="GetURI"/><reference attribute_category="SAP_S4.Receiver.System" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.24.0/attrId::address" attribute_uilabel="Address" param_key="SAP S4 Address"/><reference attribute_category="SAP_S4.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.24.0/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="Authentication"/><reference attribute_category="SAP_S4" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.24.0/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="Proxy"/><reference attribute_category="SAP_S4.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.24.0/attrId::alias" attribute_uilabel="Credential Name" param_key="User Credentials"/><reference attribute_category="SAP_S4.Receiver.System" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.24.0/attrId::address" attribute_uilabel="Address" param_key="SAP S4 Address"/><reference attribute_category="SAP_S4.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.24.0/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="Authentication"/><reference attribute_category="SAP_S4" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.24.0/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="Proxy"/><reference attribute_category="SAP_S4.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.24.0/attrId::alias" attribute_uilabel="Credential Name" param_key="User Credentials"/><reference attribute_category="Postman.Receiver.System" attribute_id="ctype::AdapterVariant/cname::SOAP/tp::HTTP/mp::SOAP 1.x/direction::Receiver/version::1.9.0/attrId::address" attribute_uilabel="Address" param_key="SOAP Address"/></param_references></parameters>

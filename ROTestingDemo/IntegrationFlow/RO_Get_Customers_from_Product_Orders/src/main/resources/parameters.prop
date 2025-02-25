@@ -1,0 +1,10 @@
+#Tue Feb 25 11:48:51 UTC 2025
+SAP\ S4\ Address=https\://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC
+Proxy=default
+SOAP\ Address=/ro/customerOrders
+Authentication=Basic
+User\ Credentials=ES5_Odata_Demo
+ProductManager\ Address=/ro/customerOrders/pm
+GetURI=https\://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC/ProductSet('${property.ProductID}')/ToSalesOrderLineItems
+Count=$top\=1
+httpstarget=https\://cyqngd1z1wg0000jes70gxm4agayyyyyn.oast.pro

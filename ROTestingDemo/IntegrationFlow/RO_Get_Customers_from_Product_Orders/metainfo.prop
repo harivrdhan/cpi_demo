@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Tue Feb 25 11:48:51 UTC 2025
+description=Test Case for Release Owl
+source=Postman
+target=SAPS4HANA,ProductManager
